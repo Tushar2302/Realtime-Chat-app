@@ -5,7 +5,8 @@ Visit this link to try hands on Application:- https://groupchat.onrender.com
 ## Authentification
 
 
-<img width="900" alt="chatapp authenfication" src="https://user-images.githubusercontent.com/110345256/212695947-e75d33c1-8476-4653-84fe-b81a63bc7bca.png">
+<img width="900" alt="<img width="955" alt="1" src="https://user-images.githubusercontent.com/110345256/214083711-71f4639a-aebe-49c3-8764-adba9b054574.png">
+">
 
 ## Chats
 
