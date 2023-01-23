@@ -1,0 +1,22 @@
+.chatroom_Body{
+    border: 5px;
+    border-color: azure;
+    height: 100vh;
+}
+.heding_title{
+    text-align: center;
+    padding-top: 6px;
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 768px){
+    .chatroom_Body{
+    width: 60vw;
+    height: 70vh;
+    margin-bottom: 150px;
+    }
+    
+ 
+}

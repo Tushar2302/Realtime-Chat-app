@@ -1,39 +1,32 @@
-.JoinPage{
-    background-color: rgb(9, 0, 0);
-    width: 100vw;
-    height: 100vh;
+.homePage_body{
+    background-image: linear-gradient(45deg, violet, rgb(228, 228, 90));
+    width: 35vw;
+    height: 60vh;
     display: flex;
     justify-content: center;
-    align-content: center;
-}
-
-.JoinContainer{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     align-items: center;
-    margin-top: 5rem;
-    border-color: aliceblue;
-
+    border: 1px white solid;
+    border-radius: 15px;
 }
 
-.JoinContainer >img{
-    width: 10vmax;
-    align-items: center;
-    margin-left: 5rem;
+.head_container{
+    padding-bottom: 10px;
 }
-.JoinContainer >h1{
-    align-self: center;
-    color: aliceblue;
-   align-content: center;
-    font-family: "ROBOTO";
+
+.btn{
+    text-decoration: solid;
+    color: white;
+    background-image: linear-gradient(30deg, rgb(129, 10, 10),rgb(16, 13, 13));
     
-    text-align: center;
-    padding: 1vmax;
-    width: 25vmax;
-    font-size: 4vmax;
-    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px){
+    .homePage_body{
+    width: 60vw;
+    height: 70vh;
+    }
     
+    .head_container{
+        text-align: center;
+    }
 }

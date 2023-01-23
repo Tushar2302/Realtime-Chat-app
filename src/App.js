@@ -4,7 +4,7 @@ import MainForm from './component/MainForm';
 import ChatRoom from './component/ChatRoom';
 function App() {
   return (
-    <div className="container-fluid bg-black text-dark d-flex align-items-center justify-content-center" style={{height: "100vh"}}>
+    <div className="app_back container-fluid  text-dark d-flex align-items-center justify-content-center" style={{height: "100vh"}}>
         <Router>
           <Routes>
             <Route index element={<MainForm/>}></Route>
