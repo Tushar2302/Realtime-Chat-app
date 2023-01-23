@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import { useLocation } from "react-router-dom"
 import Moment from 'react-moment'
 import { io } from "socket.io-client"
-import "./ChatRoom.css";
-
+import "./ChatRoom.css"
 
 const ChatRoom = () => {
 
@@ -55,18 +54,18 @@ const ChatRoom = () => {
     }
 
     return (
-        <div className="chatroom_Body border rounded " >
-                <div className="heding_title text-center px-3 mb-4 text-capitalize">
-                    <h1 className="text-warning mb-4">{data?.room} Chat Room</h1>
+        <div className=" container_body py-4 m-5 w-50 shadow  text-dark border rounded container" >
+                <div className="text-center px-3 mb-4 text-capitalize">
+                    <h1 className="text-dark mb-4">{data?.room} Chat Room</h1>
                 </div>
-                <div className="bg-light border rounded p-3 mb-4" style={{height: "370px"}}>
+                <div className="bg-light border rounded p-3 mb-4" style={{height: "370px", overflowY:"scroll"}}>
                     
                     {
                         allMessages.map(msg => {
                             return data.name === msg.name
                             ?
                             <div className="row justify-content-end pl-5 ">
-                                <div className="d-flex flex-column align-items-end m-2 shadow p-2 bg-warning border rounded w-auto">
+                                <div className="d-flex flex-column align-items-end m-2 shadow p-2 bg-info border rounded w-auto">
                                     <div>
                                         <strong className=" text-muted m-1">{msg.name}</strong>
                                         <small className="text-muted m-1"><Moment fromNow>{msg.time}</Moment></small>
